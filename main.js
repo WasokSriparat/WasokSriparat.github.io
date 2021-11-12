@@ -1,12 +1,15 @@
 //burger btn
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
+const navMenu = document.querySelector('.burger-menu');
 menuBtn.addEventListener('click',()=>{
     if(!menuOpen){
         menuBtn.classList.add('open');
+        navMenu.style.top = "100px"
         menuOpen = true;
     }else{
         menuBtn.classList.remove('open');
+        navMenu.style.top = "-1000px"
         menuOpen = false;
     }
 });
