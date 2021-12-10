@@ -22,8 +22,10 @@ body{
     height: 100%;
 }
 #about img{
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    width: 100vw;
+    max-height: 400px;
+    height: 100vh;
     
 }
 #about img.qrcode{
