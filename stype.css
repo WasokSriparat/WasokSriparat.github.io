@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(234, 237, 237);
+}
+
+#home{
+    height: 800px;
+    /* background: url(images/bg01.jpg);
+    background-size: cover; */
+}
+
+#about{
+    height: 100%;
+}
+#about img{
+    width: 400px;
+    height: 400px;
+    
+}
+#about img.qrcode{
+    width: 200px;
+    height: 200px;
+}
+#education{
+    height: 800px;
+}
+#skill img{
+    max-width: 700px;
+    width: 100vw;
+    height: auto;
+}
